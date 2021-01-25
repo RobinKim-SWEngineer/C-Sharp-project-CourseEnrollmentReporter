@@ -15,6 +15,8 @@ This application can export an Excel file using queried data, which is student`s
 
 2. C# : Converting query result, which is a *List of Objects* into *DataTable type* using `System.Reflection` and exporting to an Excel file using `DocumentFormat.OpenXml`
    - Conversion process of a List of objects to a DataTable type is described in my C# snippet repository : [List to DataTable Converter](https://github.com/RobinKim-SWEngineer/C-Sharp-snippet-ListToDataTableConverter)
+     > Inside Tester.ModuleTester, there's a test code for the conversion of List to DataTable. You can paste commented code to Program.cs and see whether it's format changed to DataTable correctly.
+   
    - Exporting an Excel file consists of creating a workbookPart -> a worksheetPart -> workwheet and loading data through SheetData. Below is **SpreadSheetDocument component's** diagram, but you don't really need to memorize the process since it`s rather building blocks like LEGOs than some logics behind.
    
      ![Image](https://github.com/RobinKim-SWEngineer/Images-for-document/blob/master/SpreadSheetDocument_Components.png)
